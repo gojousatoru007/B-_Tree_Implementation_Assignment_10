@@ -455,6 +455,10 @@ node * delete(node * root, int key) {
 
 
 void destroy_tree_nodes(node * root) {
+	if(root == NULL){
+		//printf("The Tree is empty! \n");
+		return;
+	}
 	int i;
 	if (root->is_leaf)
 		for (i = 0; i < root->num_keys; i++)

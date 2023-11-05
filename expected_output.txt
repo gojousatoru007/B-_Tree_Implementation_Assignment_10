@@ -1,0 +1,19 @@
+B+ Tree of Order 4.
+Enter any of the following commands after the prompt > :
+	i <k>  -- Insert <k> (an integer) as both key and value).
+	i <k> <v> -- Insert the value <v> (an integer) as the value of key <k> (an integer).
+	f <k>  -- Find the value under key <k>.
+	p <k> -- Print the path from the root to key k and its associated value.
+	d <k>  -- Delete key <k> and its associated value.
+	x -- Destroy the whole tree.  Start again with an empty tree of the same order.
+	t -- Print the B+ tree.
+	l -- Print the keys of the leaves (bottom row of the tree).
+	s -- Print the Tree in the format [leftchildvalues], root, [right_child_values]...	q -- Quit. (Or use Ctl-D or Ctl-C.)
+> 1 | 
+> 1 2 | 
+> 1 2 3 | 
+> 3 | 
+1 2 | 3 4 | 
+> 3 | 
+1 2 | 3 4 5 | 
+> 
