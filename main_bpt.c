@@ -88,10 +88,10 @@ int main() {
 			verbose_output = !verbose_output;
 			break;
 		case 's':
-			 char result[1024];  // Adjust the size as needed
+			char result[1024];  // Adjust the size as needed
 
 			toString(root, result);
-			printf("\n");
+			printf("%s\n", result);
 			break;
 		case 'x':
 			if (root)
